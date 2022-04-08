@@ -39,7 +39,7 @@ return(
       <button onClick={backSpace} id="backSpace">
         C
       </button>
-      <button onClick={handleClick} name="/">
+      <button id="dot" onClick={handleClick} name="/">
         &divide;
       </button>
       <button onClick={handleClick} name="7">
@@ -51,7 +51,7 @@ return(
       <button onClick={handleClick} name="9">
         9
       </button>
-      <button onClick={handleClick} name="*">
+      <button id="dot" onClick={handleClick} name="*">
         &times;
       </button>
       <button onClick={handleClick} name="4">
@@ -63,7 +63,7 @@ return(
       <button onClick={handleClick} name="6">
         6
       </button>
-      <button onClick={handleClick} name="-">
+      <button  id="dot" onClick={handleClick} name="-">
         &ndash;
       </button>
       <button onClick={handleClick} name="1">
@@ -75,13 +75,13 @@ return(
       <button onClick={handleClick} name="3">
         3
       </button>
-      <button onClick={handleClick} name="+">
+      <button id="dot" onClick={handleClick} name="+">
         +
       </button>
       <button onClick={handleClick} name="0">
         0
       </button>
-      <button onClick={handleClick} name=".">
+      <button id="dot" onClick={handleClick} name=".">
         .
       </button>
       <button className="equal" onClick={calculate} id="result">
